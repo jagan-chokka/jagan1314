@@ -1,5 +1,4 @@
 public class Day13 {
-
     static class Node {
         int data;
         Node next;
@@ -9,9 +8,7 @@ public class Day13 {
             next = null;
         }
     }
-
     Node head;
-
     public void printList() {
         Node currentNode = head;
         System.out.print("LinkedList: ");
@@ -21,7 +18,6 @@ public class Day13 {
         }
         System.out.println("null");
     }
-
     public static void main(String[] args) {
         Day13 linkedList = new Day13();
 
@@ -34,4 +30,5 @@ public class Day13 {
 
         linkedList.printList();
     }
+
 }
